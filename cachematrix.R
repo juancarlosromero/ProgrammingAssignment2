@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## and set the invertible  matrix by using the solve function.
 
 ## In case inverse matrix from makeCacheMatrix((matrix) has some value in it, 
-## returns a message  "getting cached data for inverse matrix" and the cached object
+## returns a message "getting cached data for inverse matrix" and the cached object
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
